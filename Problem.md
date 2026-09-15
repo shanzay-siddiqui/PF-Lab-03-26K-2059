@@ -1,0 +1,76 @@
+# Problem 1 — Student Information
+
+### Pseudocode
+
+START
+
+DECLARE STUDENT_NAME AS STRING
+DECLARE ROLL_NUMBER AS INTEGER
+DECLARE SECTION AS CHARACTER
+DECLARE AGE AS INTEGER
+DECLARE CGPA AS FLOAT
+DECLARE HEIGHT AS FLOAT
+
+DISPLAY "Enter Student Name"
+INPUT STUDENT_NAME
+
+DISPLAY "Enter Roll Number"
+INPUT ROLL_NUMBER
+
+DISPLAY "Enter Section"
+INPUT SECTION
+
+DISPLAY "Enter Age"
+INPUT AGE
+
+DISPLAY "Enter CGPA"
+INPUT CGPA
+
+DISPLAY "Enter Height"
+INPUT HEIGHT
+
+DISPLAY "Student Information"
+DISPLAY STUDENT_NAME
+DISPLAY ROLL_NUMBER
+DISPLAY SECTION
+DISPLAY AGE
+DISPLAY CGPA
+DISPLAY HEIGHT
+
+END
+
+
+# Problem 2 — Character Input and Output
+
+### Pseudocode
+
+START
+
+DECLARE CHARACTER AS CHARACTER
+
+DISPLAY "Enter a character"
+CHARACTER ← GETCHAR()
+
+DISPLAY "Character entered:"
+PUTCHAR(CHARACTER)
+
+END
+
+
+# Problem 3 — Floating-Point Precision
+
+### Pseudocode
+
+START
+
+DECLARE FLOAT_VALUE AS FLOAT
+
+DISPLAY "Enter a floating-point value"
+INPUT FLOAT_VALUE
+
+DISPLAY "Default:", FLOAT_VALUE
+DISPLAY "2 digits:", FLOAT_VALUE with 2 decimal places
+DISPLAY "4 digits:", FLOAT_VALUE with 4 decimal places
+DISPLAY "6 digits:", FLOAT_VALUE with 6 decimal places
+
+END
